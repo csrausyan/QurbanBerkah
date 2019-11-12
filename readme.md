@@ -2,16 +2,21 @@
 Dibuat untuk menyelesaikan tugas :v
 ## Catatan dan masalah deployment
 1. Di MySQL cukup buat DB aja (defaultnya qurbanberkah, edit di .env kalo beda)
-2. Pakai migrations, jangan buat tabel sendiri
+2. Belum ada /vendor. gunakan
+```bash
+composer update
+```
+pada directori QurbanBerkah.<br>
+3. Pakai migrations, jangan buat tabel sendiri
 ```bash
 php artisan migrate
 ```
-3. Datanya belum ada, input juga belum bisa lewat web
-4. Belum sampe buat form, tapi udah install laravelcollective/html
+4. Datanya belum ada, input juga belum bisa lewat web
+5. Belum sampe buat form, tapi udah install laravelcollective/html
 ```bash
 composer require laravelcollective/html
 ```
-5. User auth baru install dari bawaan laravel
+6. User auth baru install dari bawaan laravel
 ```bash
 composer require laravel/ui --dev
 php artisan ui bootstrap
