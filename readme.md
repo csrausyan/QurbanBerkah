@@ -6,7 +6,7 @@ Dibuat untuk menyelesaikan tugas :v
 ```bash
 composer update
 ```
-pada directori QurbanBerkah\t
+pada directori QurbanBerkah.<br>
 3. Pakai migrations, jangan buat tabel sendiri
 ```bash
 php artisan migrate
